@@ -22,7 +22,8 @@ body{
 .navbar-nav a:hover, .navbar-nav a:focus, .navbar-toggler-icon:hover {
     background-color: white;
     color: #f4511e;
-} 
+}
+
 
 .jumbotron{
     background-color: #f4511e;
@@ -202,8 +203,8 @@ background-color: white;
 
 
 
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
+.carousel-control.right, .carousel-control.left, .carousel-control-prev .carousel-control-prev-icon {
+    /* background-image: none; */
     color: #f4511e;
   }
   .carousel-indicators li {
@@ -224,35 +225,3 @@ background-color: white;
   .item span {
     font-style: normal;
   }
-
-
-.tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-@-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
